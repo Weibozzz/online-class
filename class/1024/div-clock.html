@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>div时钟</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background: paleturquoise;
+    }
+    #clock{
+      position: relative;
+      width: 800px;
+      height: 800px;
+      margin: 0 auto;
+      margin-top: 30px;
+      background: #cccccc;
+      overflow: hidden;
+    }
+    .out{
+      box-sizing: border-box;
+      width: 600px;
+      height: 600px;
+      margin: 0 auto;
+      margin-top: 50px;
+      background: #fff;
+      border-radius: 50%;
+      border: 8px solid paleturquoise;
+    }
+    .hh{
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      width: 8px;
+      height: 220px;
+      background: red;
+      transform: translateX(-4px);
+      transform-origin: center bottom;
+    }
+    .mm{
+      position: absolute;
+      top: 110px;
+      left: 50%;
+      width: 6px;
+      height: 240px;
+      background: #4791ff;
+      transform: translateX(-3px);
+      transform-origin: center bottom;
+    }
+    .ss{
+      position: absolute;
+      top: 70px;
+      left: 50%;
+      width: 4px;
+      height: 280px;
+      background: yellowgreen;
+      transform: translateX(-2px);
+      transform-origin: center bottom;
+    }
+    .num{
+      position: absolute;
+      top: 350px;
+      left: 100px;
+      width: 600px;
+      height: 22px;
+    }
+    .fl{
+      float: left;
+    }
+    .fr{
+      float: right;
+    }
+    .num1{
+      transform: rotate(90deg);
+    }
+    .num2{
+      transform: rotate(120deg);
+    }
+    .num3{
+      transform: rotate(150deg);
+    }
+    .num4{
+      transform: rotate(180deg);
+    }
+    .num5{
+      transform: rotate(210deg);
+    }
+    .num6{
+      transform: rotate(240deg);
+    }
+  </style>
+</head>
+<body>
+<div id="clock">
+  <div class="out"></div>
+<!--  <div class="in"></div>-->
+  <div class="hh"></div>
+  <div class="mm"></div>
+  <div class="ss"></div>
+
+  <div class="num num1">
+    <span class="fl">12</span>
+    <span class="fr">6</span>
+  </div>
+  <div class="num num2">
+    <span class="fl">1</span>
+    <span class="fr">7</span>
+  </div>
+  <div class="num num3">
+    <span class="fl">2</span>
+    <span class="fr">8</span>
+  </div>
+  <div class="num num4">
+    <span class="fl">3</span>
+    <span class="fr">9</span>
+  </div>
+  <div class="num num5">
+    <span class="fl">4</span>
+    <span class="fr">10</span>
+  </div>
+  <div class="num num6">
+    <span class="fl">5</span>
+    <span class="fr">11</span>
+  </div>
+</div>
+
+<script>
+  var ss = document.getElementsByClassName('ss')[0]
+  var mm = document.getElementsByClassName('mm')[0]
+  var hh = document.getElementsByClassName('hh')[0]
+  function run () {
+    var date = new Date()
+    var sencods = date.getSeconds()
+    var minute = date.getMinutes()
+    var hours = date.getHours()
+    ss.style.transform = "rotate("+sencods*6+"deg)"
+    var mmDeg = 6 * (minute + minute / 60) // 分针转的度数
+    mm.style.transform = "rotate("+mmDeg+"deg)"
+    var hhDeg = hours * 30 + minute/60*30 + sencods / 3600 * 30 // 时针转的度数
+    hh.style.transform = "rotate("+hhDeg+"deg)"
+
+  }
+  run()
+  setInterval(run, 1000)
+</script>
+</body>
+</html>
