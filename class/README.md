@@ -20,6 +20,14 @@
 直播马上开始
 会带大家了解git,github的使用 实战项目 div小时钟(为了巩固前两天所学和新的知识（定位和浮动）)~
 
+### usage
+- `git clone https://github.com/Weibozzz/online-class.git` 克隆代码
+- `git pull` 拉代码
+- `git add .` 
+- `git commit -m 'msg'`
+- `git push`
+
+
 - [git历史和原理](https://weibozzz.github.io/#/./docs/%E5%B7%A5%E5%85%B7/git%E5%8E%86%E5%8F%B2%E5%92%8C%E5%8E%9F%E7%90%86)
 - [git了解](https://weibozzz.github.io/#/./docs/工具/你想要的git都有)
 
