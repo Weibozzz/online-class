@@ -17,7 +17,7 @@
       height: 800px;
       margin: 0 auto;
       margin-top: 30px;
-      background: #cccccc;
+      /*background: #cccccc;*/
       overflow: hidden;
     }
     .out{
@@ -26,13 +26,24 @@
       height: 600px;
       margin: 0 auto;
       margin-top: 50px;
-      background: #fff;
+      /*background: #fff;*/
       border-radius: 50%;
-      border: 8px solid paleturquoise;
+      background: linear-gradient(#D1E6ED,#797978);
+    }
+    .in{
+      position: absolute;
+      top: 75px;
+      left: 50%;
+      width: 550px;
+      height: 550px;
+      background: #FFF;
+      transform: translateX(-275px);
+      border-radius: 50%;
+      box-shadow: 0 10px 10px #ccc inset;
     }
     .hh{
       position: absolute;
-      top: 120px;
+      top: 130px;
       left: 50%;
       width: 8px;
       height: 220px;
@@ -52,20 +63,21 @@
     }
     .ss{
       position: absolute;
-      top: 70px;
+      top: 80px;
       left: 50%;
       width: 4px;
-      height: 280px;
+      height: 270px;
       background: yellowgreen;
       transform: translateX(-2px);
       transform-origin: center bottom;
     }
     .num{
       position: absolute;
-      top: 350px;
-      left: 100px;
-      width: 600px;
+      top: 340px;
+      left: 135px;
+      width: 530px;
       height: 22px;
+      font-weight: bold;
     }
     .fl{
       float: left;
@@ -76,26 +88,45 @@
     .num1{
       transform: rotate(90deg);
     }
+    .num1 .fl, .num1 .fr{
+      transform: rotate(-90deg);
+    }
     .num2{
       transform: rotate(120deg);
+    }
+    .num2 .fl, .num2 .fr{
+      transform: rotate(-120deg);
     }
     .num3{
       transform: rotate(150deg);
     }
+    .num3 .fl, .num3 .fr{
+      transform: rotate(-150deg);
+    }
     .num4{
       transform: rotate(180deg);
+    }
+    .num4 .fl, .num4 .fr{
+      transform: rotate(-180deg);
     }
     .num5{
       transform: rotate(210deg);
     }
+    .num5 .fl, .num5 .fr{
+      transform: rotate(-210deg);
+    }
     .num6{
       transform: rotate(240deg);
+    }
+    .num6 .fl, .num6 .fr{
+      transform: rotate(-240deg);
     }
   </style>
 </head>
 <body>
 <div id="clock">
   <div class="out"></div>
+  <div class="in"></div>
 <!--  <div class="in"></div>-->
   <div class="hh"></div>
   <div class="mm"></div>
@@ -137,7 +168,7 @@
     var minute = date.getMinutes()
     var hours = date.getHours()
     ss.style.transform = "rotate("+sencods*6+"deg)"
-    var mmDeg = 6 * (minute + minute / 60) // 分针转的度数
+    var mmDeg = 6 * (minute + sencods / 60) // 分针转的度数
     mm.style.transform = "rotate("+mmDeg+"deg)"
     var hhDeg = hours * 30 + minute/60*30 + sencods / 3600 * 30 // 时针转的度数
     hh.style.transform = "rotate("+hhDeg+"deg)"

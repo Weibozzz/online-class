@@ -1,0 +1,24 @@
+- transform rotate translateX
+  - rotate(<a> [<x> <y>]) 变换方法通过一个给定角度对一个指定的点进行旋转变换
+  - translate(<x> [<y>]) 变换函数通过 x 向量和 y 向量移动元素
+- border-radius
+  - CSS 属性 border-radius 允许你设置元素的外边框圆角
+- background linear-gradient
+  - CSS linear-gradient() 函数用于创建一个表示两种或多种颜色线性渐变的图片
+- box-shadow
+  - /* x偏移量 | y偏移量 | 阴影模糊半径 | 阴影颜色 */
+- transform-origin
+  - transform-origin CSS属性让你更改一个元素变形的原点
+- Date对象
+  - new Date().getTime() 1970年1月1日 到现在所经过的毫秒数
+  - new Date().getHours() 获取小时
+  - new Date().getMinutes() 获取分钟
+  - new Date().getSeconds() 获取秒数
+- dom对象
+  - document.getElementsByTagName('div')
+  - document.getElementsByClassName('ss')
+  - document.getElementById()
+  - document.querySelectorAll
+  - document.querySelector
+- setInterval(fn, timer) 以固定的时间间隔，重复运行一段代码.
+  - 清除方法 clearInterval（setinter）
