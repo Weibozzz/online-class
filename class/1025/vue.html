@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>vue</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+  {{ message }}
+  <div>{{hh}}</div>
+  <p v-if="seen">现在你看到我了</p>
+</div>
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!',
+      hh: '这是小事',
+      seen: false
+    }
+  })
+</script>
+</body>
+</html>

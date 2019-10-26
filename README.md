@@ -1,6 +1,5 @@
 主播是从业一线的前端开发者，目前服务于某大型互联网公司，
-时间比较自由(这里得感谢公司领导)，
-每天晚上9点左右会开直播讲解前端，弹幕可以和我互动，包括技术难题。主播的
+每天晚上9点会开直播讲解前端，弹幕可以和我互动，包括技术难题。主播的
 
 - [个人博客](http://www.liuweibo.cn/)
 - [github](https://github.com/weibozzz)
@@ -18,6 +17,8 @@
 ![](./images/image-20190724113314237.png)
 
 ### 0924 直播第三天
+![](./images/div-clock.png)
+[录播地址](https://www.bilibili.com/video/av73296107)
 会带大家了解git,github的使用 实战项目 div小时钟(为了巩固前两天所学和新的知识（定位和浮动）)~
 
 - [git历史和原理](https://weibozzz.github.io/#/./docs/%E5%B7%A5%E5%85%B7/git%E5%8E%86%E5%8F%B2%E5%92%8C%E5%8E%9F%E7%90%86)
@@ -32,9 +33,18 @@
 
 ### 0925 直播第四天
 
-今日直播内容，对昨天的div小时钟完善，并学习设计的新东西
+![](./images/div-clock.png)
+[录播地址](https://www.bilibili.com/video/av73397612)
+对昨天的div小时钟完善，并学习设计的新东西
 [文档笔记](./docs/date_dom.md)
 
+### 0926 直播第五天
+![](./images/qq-music.png)
+学习js中变量，数据类型，函数
+明日直播内容 数组的方法学习,循环 vue介绍
+最终实战项目：qq音乐 播放器
+
+今天ig比赛早点下播
 
 
 
