@@ -6,17 +6,17 @@
 
 ## 直播日记
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-### 0922 直播第一天
+### 1022 直播第一天
 [录播地址](https://www.bilibili.com/video/av73087610)
 带着大家不到一小时，从零基础100行代码写了一个百度,昨天没看的可以看录播~
 ![](./images/baidu.png)
 
-### 0923 直播第二天
+### 1023 直播第二天
 [录播地址](https://www.bilibili.com/video/av73195361)
 直播内容，会带大家了解网页的历史，深入了解html,css px,em,rem区别~
 ![](./images/image-20190724113314237.png)
 
-### 0924 直播第三天
+### 1024 直播第三天
 ![](./images/div-clock.png)
 [录播地址](https://www.bilibili.com/video/av73296107)
 会带大家了解git,github的使用 实战项目 div小时钟(为了巩固前两天所学和新的知识（定位和浮动）)~
@@ -31,21 +31,28 @@
 - `git push`
 
 
-### 0925 直播第四天
+### 1025 直播第四天
 
 ![](./images/div-clock.png)
 [录播地址](https://www.bilibili.com/video/av73397612)
 对昨天的div小时钟完善，并学习设计的新东西
 [文档笔记](./docs/date_dom.md)
 
-### 0926 直播第五天
+### 1026 直播第五天
 ![](./images/qq-music.png)
+[录播地址](https://www.bilibili.com/video/av73524862)
 学习js中变量，数据类型，函数
-明日直播内容 数组的方法学习,循环 vue介绍
+[文档笔记](./docs/变量函数.md)
+
+### 1027 直播第六天
+今日直播内容 数组的方法学习 
+[文档笔记](./docs/array.md)
+
+今天直播先到这里，都比较重要！
+
+### 1028(明天)
+es6
 最终实战项目：qq音乐 播放器
-
-今天ig比赛早点下播
-
 
 
 
