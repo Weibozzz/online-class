@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ajax</title>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+  // http://www.liuweibo.cn:7654/api/getBlog?type=all&num=1&pageNum=10&wd=
+
+  function ajax (url) {
+    let xhr = new XMLHttpRequest()
+    xhr.open('get', url)
+    //post 发送合适的请求头信息
+    // xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+      if(xhr.readyState==4||xhr.status==200){
+        console.log(xhr.responseText)
+      }
+    }
+    xhr.send(null)
+  }
+
+  let url = 'http://www.liuweibo.cn:7654/api/getBlog?type=all&num=1&pageNum=10&wd='
+
+  ajax(url)
+  // jquery ajax使用
+  $.ajax({
+    method: 'get',
+    url: url,
+    success:function (res) {
+      console.log(res)
+    }
+  })
+
+  /**
+   * post 和 get 区别
+   * post需要些请求头，参数在send()方法里面
+   *
+  * */
+</script>
+</body>
+</html>
