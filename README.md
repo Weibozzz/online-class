@@ -58,10 +58,23 @@
 - 原生ajax
 [文档笔记](./docs/es6.md)
 
-## 1031 直播第八天
+### 1031 直播第八天
 今日忘记录制了，抱歉~
 - 火星文正则表达式学习
 [文档笔记](./docs/regexp.md)
+
+### 1102 直播第九天
+看ig 比赛了
+
+### 1105 直播第十天
+
+[文档笔记](./docs/vue-music.md)
+qq音乐 播放器起步
+
+- 安装vue-cli最新版本
+- stylus安装
+- vue-router安装
+
 
 
 最终实战项目：qq音乐 播放器
@@ -72,10 +85,10 @@
 
 ## 直播计划
 
-[每晚9点直播](http://live.bilibili.com/21660572)
-- 第一阶段 html css(实战项目div时钟)(目前阶段)
+[每周246晚9点直播](http://live.bilibili.com/21660572)
+- 第一阶段 html css(实战项目div时钟)
 - 第二阶段 js,es6
-- 第三阶段 vue react (qq音乐播放器)
+- 第三阶段 vue react (qq音乐播放器 目前阶段)
 - 第四阶段 webpack nodejs mysql
 - 第五阶段 axios,redux源码
 实战项目多多，从项目中学习～
