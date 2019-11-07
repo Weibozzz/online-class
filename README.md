@@ -75,6 +75,11 @@ qq音乐 播放器起步
 - stylus安装
 - vue-router安装
 
+### 1107 直播第十一天
+
+- swiper jsonp  http-proxy 使用
+- 跨域，jsonp 讲解及解决办法
+- vue-config 的配置
 
 
 最终实战项目：qq音乐 播放器
