@@ -3,6 +3,7 @@
 
 - [个人博客](http://www.liuweibo.cn/)
 - [github](https://github.com/weibozzz)
+- [正在开发的qq音乐播放器地址]( https://github.com/Weibozzz/qq-music.git)
 
 ## 直播日记
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
@@ -80,6 +81,10 @@ qq音乐 播放器起步
 - swiper jsonp  http-proxy 使用
 - 跨域，jsonp 讲解及解决办法
 - vue-config 的配置
+
+### 1109 直播第十二天
+
+-  歌手页面开发，解决了../全局路径问题，eslint配置，跨域处理问题
 
 
 最终实战项目：qq音乐 播放器
