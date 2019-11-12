@@ -86,9 +86,11 @@ qq音乐 播放器起步
 
 -  歌手页面开发，解决了../全局路径问题，eslint配置，跨域处理问题
 
-
+### 1112 直播第十三天
+- 源码 `class/1112`
+- [笔记](https://weibozzz.github.io/#/./docs/Webpack/loader)
+- 学习手写一个webpack-loader
 最终实战项目：qq音乐 播放器
-
 
 
 
