@@ -3,7 +3,6 @@
 
 - [个人博客](http://www.liuweibo.cn/)
 - [github](https://github.com/weibozzz)
-- [正在开发的qq音乐播放器地址]( https://github.com/Weibozzz/qq-music.git)
 
 ## 直播日记
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
@@ -90,7 +89,20 @@ qq音乐 播放器起步
 - 源码 `class/1112`
 - [笔记](https://weibozzz.github.io/#/./docs/Webpack/loader)
 - 学习手写一个webpack-loader
-最终实战项目：qq音乐 播放器
+
+### 1114 直播第十四天
+- [排行搜索开发](https://github.com/Weibozzz/qq-music/commit/474bba4c3f73711f46581e720436e8d33af7e252)
+
+### 1116 直播第十五天
+
+RAF替代setTimeout/setInterval
+
+### 1118 直播第十六天
+
+
+
+
+
 
 
 
